@@ -1,0 +1,1302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6856FB226700E1D37297D977 /* Pods_YerTostikTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */; };
+		A604599C206E4A59004A7803 /* aldarDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A604599B206E4A59004A7803 /* aldarDiffuse.png */; };
+		A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044B20651AAB001AD7D7 /* AppDelegate.swift */; };
+		A60F045020651AAB001AD7D7 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044F20651AAB001AD7D7 /* ARViewController.swift */; };
+		A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045120651AAB001AD7D7 /* Main.storyboard */; };
+		A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F045420651AAB001AD7D7 /* Assets.xcassets */; };
+		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
+		A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046220651AAC001AD7D7 /* YerTostikTests.swift */; };
+		A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */; };
+		A62DCD1E206D38F4000A1CD8 /* aldarNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1A206D38F3000A1CD8 /* aldarNormal.png */; };
+		A62DCD1F206D38F4000A1CD8 /* aldarSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */; };
+		A62DCD20206D38F4000A1CD8 /* aldarOpacity.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */; };
+		A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */; };
+		A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */; };
+		A67722912070196B008FD4D5 /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67722902070196B008FD4D5 /* VirtualPlane.swift */; };
+		A677229320701994008FD4D5 /* ARSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677229220701994008FD4D5 /* ARSessionState.swift */; };
+		A677229C2070286D008FD4D5 /* kyzNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229B2070286D008FD4D5 /* kyzNormal.png */; };
+		A677229E20702874008FD4D5 /* kyzSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229D20702874008FD4D5 /* kyzSpecular.png */; };
+		A69403AC20652BA900114546 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AB20652BA900114546 /* TabBarController.swift */; };
+		A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AD20652BCB00114546 /* LibraryViewController.swift */; };
+		A69403B020652BD600114546 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AF20652BD600114546 /* CloudViewController.swift */; };
+		A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B120652BF100114546 /* LeaderBoardViewController.swift */; };
+		A69403B420652C0100114546 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B320652C0100114546 /* ProfileViewController.swift */; };
+		A69403B7206530F700114546 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B6206530F700114546 /* Extensions.swift */; };
+		A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B82065442000114546 /* LibraryTableViewCell.swift */; };
+		A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403BA20656A1600114546 /* CloudCollectionViewCell.swift */; };
+		A6B3CA8B2066E8A000FE2553 /* LeaderBoardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA8A2066E8A000FE2553 /* LeaderBoardHeaderView.swift */; };
+		A6B3CA8D2066E94F00FE2553 /* LeaderHeaderViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA8C2066E94F00FE2553 /* LeaderHeaderViewItem.swift */; };
+		A6B3CA8F2066F69900FE2553 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA8E2066F69900FE2553 /* SettingsViewController.swift */; };
+		A6B3CA912066F6B900FE2553 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */; };
+		A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */; };
+		A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */; };
+		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
+		AD15CBE620A71A70001F17D6 /* batyrSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = AD15CBE520A71A70001F17D6 /* batyrSpecular.png */; };
+		AD15CBEA20A71A7D001F17D6 /* batyrDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */; };
+		AD35443520A739B500D623F5 /* kyz.dae in Resources */ = {isa = PBXBuildFile; fileRef = AD35443420A739B500D623F5 /* kyz.dae */; };
+		AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD365A8620A4A7CC00E0E7DA /* Favorite.swift */; };
+		AD3A05FE20AAF85A00338167 /* kyzDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3A05FD20AAF85A00338167 /* kyzDiffuse.png */; };
+		AD47E21820A75D38008BB4FC /* batyrNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = AD47E21720A75D38008BB4FC /* batyrNormal.png */; };
+		AD83882F20A8EB3900501BF9 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83882E20A8EB3900501BF9 /* AudioViewController.swift */; };
+		AD83883120A8EDEA00501BF9 /* DetailedBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */; };
+		AD83883320A8FAFF00501BF9 /* CongratulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83883220A8FAFF00501BF9 /* CongratulationViewController.swift */; };
+		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
+		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
+		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
+		ADC1B2D320A1E72B00E969D1 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */; };
+		ADC1B30320A321FB00E969D1 /* Аяз би.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EA20A321F600E969D1 /* Аяз би.epub */; };
+		ADC1B30520A321FB00E969D1 /* Бақтыбай би.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EC20A321F600E969D1 /* Бақтыбай би.epub */; };
+		ADC1B30720A321FB00E969D1 /* Бала патша.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EE20A321F600E969D1 /* Бала патша.epub */; };
+		ADC1B30820A321FB00E969D1 /* Керқұла атты Кендебай.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EF20A321F700E969D1 /* Керқұла атты Кендебай.epub */; };
+		ADC1B30920A321FB00E969D1 /* Мақта қыз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F020A321F700E969D1 /* Мақта қыз.epub */; };
+		ADC1B30A20A321FB00E969D1 /* Күлше қыз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F120A321F700E969D1 /* Күлше қыз.epub */; };
+		ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F320A321F700E969D1 /* Зерделі.epub */; };
+		ADC1B30D20A321FB00E969D1 /* Қарлығаштың құйрығы неге айыр?.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */; };
+		ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */; };
+		ADC1B30F20A321FB00E969D1 /* Алдаркөсе.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F620A321F800E969D1 /* Алдаркөсе.epub */; };
+		ADC1B31020A321FB00E969D1 /* Ай астындағы Айбарша сұлу.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */; };
+		ADC1B31120A321FB00E969D1 /* Кішкентай Маса.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */; };
+		ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */; };
+		ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FA20A321F900E969D1 /* Хан мен құмырсқалар ертегісі.epub */; };
+		ADC1B31420A321FB00E969D1 /* Боз атты Боран батыр.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FB20A321F900E969D1 /* Боз атты Боран батыр.epub */; };
+		ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FD20A321F900E969D1 /* Балықшы мен сиқыршы.epub */; };
+		ADC1B31720A321FB00E969D1 /* Ит достығы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FE20A321F900E969D1 /* Ит достығы.epub */; };
+		ADC1B31820A321FB00E969D1 /* Сыбызғы сыры.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FF20A321F900E969D1 /* Сыбызғы сыры.epub */; };
+		ADC1B31920A321FB00E969D1 /* Алты жасар Алпамыс.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */; };
+		ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B30120A321FA00E969D1 /* Өнеге.epub */; };
+		ADC1B33620A323BA00E969D1 /* Маша и медведь.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B31D20A323B600E969D1 /* Маша и медведь.epub */; };
+		ADC1B33720A323BA00E969D1 /* Цветик-семицветик.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B31E20A323B600E969D1 /* Цветик-семицветик.epub */; };
+		ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B31F20A323B600E969D1 /* Сестрица Аленушка и братец Иванушка.epub */; };
+		ADC1B33920A323BA00E969D1 /* Белоснежка и семь гномов.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32020A323B600E969D1 /* Белоснежка и семь гномов.epub */; };
+		ADC1B33A20A323BA00E969D1 /* Волк и семеро козлят.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32120A323B600E969D1 /* Волк и семеро козлят.epub */; };
+		ADC1B33B20A323BA00E969D1 /* Я – сам.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32220A323B700E969D1 /* Я – сам.epub */; };
+		ADC1B33C20A323BA00E969D1 /* По щучьему веленью.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32320A323B700E969D1 /* По щучьему веленью.epub */; };
+		ADC1B33D20A323BA00E969D1 /* Девочка со спичками.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32420A323B700E969D1 /* Девочка со спичками.epub */; };
+		ADC1B33E20A323BA00E969D1 /* Репка.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32520A323B700E969D1 /* Репка.epub */; };
+		ADC1B33F20A323BA00E969D1 /* Ничто-Ничего.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32620A323B700E969D1 /* Ничто-Ничего.epub */; };
+		ADC1B34020A323BA00E969D1 /* Птичий язык.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32720A323B700E969D1 /* Птичий язык.epub */; };
+		ADC1B34120A323BA00E969D1 /* Гуси – лебеди.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32820A323B800E969D1 /* Гуси – лебеди.epub */; };
+		ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32920A323B800E969D1 /* Три медведя.epub */; };
+		ADC1B34320A323BA00E969D1 /* Гадкий утенок.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32A20A323B800E969D1 /* Гадкий утенок.epub */; };
+		ADC1B34420A323BA00E969D1 /* Кошка, которая гуляла сама по себе.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32B20A323B800E969D1 /* Кошка, которая гуляла сама по себе.epub */; };
+		ADC1B34520A323BA00E969D1 /* Мальчик с пальчик.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32C20A323B800E969D1 /* Мальчик с пальчик.epub */; };
+		ADC1B34620A323BA00E969D1 /* Разбойники.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32D20A323B800E969D1 /* Разбойники.epub */; };
+		ADC1B34720A323BA00E969D1 /* Кощей Бессмертный.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32E20A323B800E969D1 /* Кощей Бессмертный.epub */; };
+		ADC1B34820A323BA00E969D1 /* Горшок.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32F20A323B900E969D1 /* Горшок.epub */; };
+		ADC1B34920A323BA00E969D1 /* Легенда о Макбете.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33020A323B900E969D1 /* Легенда о Макбете.epub */; };
+		ADC1B34A20A323BA00E969D1 /* Царевна-лягушка.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33120A323B900E969D1 /* Царевна-лягушка.epub */; };
+		ADC1B34B20A323BA00E969D1 /* Крошка фея.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33220A323B900E969D1 /* Крошка фея.epub */; };
+		ADC1B34C20A323BA00E969D1 /* Кот, Петух и Лиса.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */; };
+		ADC1B34D20A323BA00E969D1 /* Петушок — Золотой гребещок и жерновцы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */; };
+		ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */; };
+		ADC1B35020A3375E00E969D1 /* CloudBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */; };
+		ADC1B35220A337B100E969D1 /* CloudBookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B35120A337B100E969D1 /* CloudBookListTableViewCell.swift */; };
+		ADC1B35620A341D700E969D1 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B35520A341D700E969D1 /* Book.swift */; };
+		ADC1B35820A3443F00E969D1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B35720A3443F00E969D1 /* Category.swift */; };
+		ADC1B35C20A34D4600E969D1 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35B20A34D4600E969D1 /* books.json */; };
+		ADC1B35E20A3801600E969D1 /* Арлы бала.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35D20A3801500E969D1 /* Арлы бала.epub */; };
+		ADC1B36020A381CD00E969D1 /* Балта сорпасы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35F20A381CC00E969D1 /* Балта сорпасы.epub */; };
+		ADC1B36220A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */; };
+		ADD4D52620A9DE5D00C6C685 /* Batyr.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADD4D52520A9DE5D00C6C685 /* Batyr.dae */; };
+		ADE5A9CF20A707E50096B303 /* aldar.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADE5A9CE20A707E40096B303 /* aldar.dae */; };
+		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
+		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
+		ADEA0F20209F06300051E664 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1F209F06300051E664 /* Drop.swift */; };
+		ADEA0F22209F25400051E664 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F21209F25400051E664 /* VideoPlayerView.swift */; };
+		ADEA0F25209F28160051E664 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F24209F28160051E664 /* Constants.swift */; };
+		ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F2B209F40CA0051E664 /* background.mp4 */; };
+		ADFDB42D20AB700100F10699 /* AudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */; };
+		ADFDB43420AB75CF00F10699 /* auid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43320AB75CF00F10699 /* auid.mp3 */; };
+		ADFDB43620AB881E00F10699 /* gulnaz.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43520AB881D00F10699 /* gulnaz.dae */; };
+		ADFDB43820AB8D7F00F10699 /* gulnaz.scn in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43720AB8D7F00F10699 /* gulnaz.scn */; };
+		ADFDB43D20AB8EE900F10699 /* battalion-leader-heraklios_specular.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43B20AB8EE800F10699 /* battalion-leader-heraklios_specular.png */; };
+		ADFDB43E20AB8EE900F10699 /* battalion-leader-heraklios_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43C20AB8EE900F10699 /* battalion-leader-heraklios_normal.png */; };
+		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60F045F20651AAC001AD7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60F044020651AAB001AD7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60F044720651AAB001AD7D7;
+			remoteInfo = YerTostik;
+		};
+		A60F046A20651AAC001AD7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60F044020651AAB001AD7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60F044720651AAB001AD7D7;
+			remoteInfo = YerTostik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496B0B093426852CC2DC3C0C /* Pods-YerTostik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik.debug.xcconfig"; sourceTree = "<group>"; };
+		4EBC91B31DDAC44A2945CF47 /* Pods-YerTostik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostik.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik.release.xcconfig"; sourceTree = "<group>"; };
+		511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostikUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.release.xcconfig"; sourceTree = "<group>"; };
+		9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostikTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A604599B206E4A59004A7803 /* aldarDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarDiffuse.png; sourceTree = "<group>"; };
+		A60F044820651AAB001AD7D7 /* YerTostik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YerTostik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F044B20651AAB001AD7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A60F044F20651AAB001AD7D7 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		A60F045220651AAB001AD7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A60F045420651AAB001AD7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60F045720651AAB001AD7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A60F045920651AAB001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60F045E20651AAC001AD7D7 /* YerTostikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F046220651AAC001AD7D7 /* YerTostikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikTests.swift; sourceTree = "<group>"; };
+		A60F046420651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
+		A60F046F20651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62DCD1A206D38F3000A1CD8 /* aldarNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarNormal.png; sourceTree = "<group>"; };
+		A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarSpecular.png; sourceTree = "<group>"; };
+		A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarOpacity.png; sourceTree = "<group>"; };
+		A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = "<group>"; };
+		A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A67722902070196B008FD4D5 /* VirtualPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
+		A677229220701994008FD4D5 /* ARSessionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionState.swift; sourceTree = "<group>"; };
+		A677229B2070286D008FD4D5 /* kyzNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzNormal.png; sourceTree = "<group>"; };
+		A677229D20702874008FD4D5 /* kyzSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzSpecular.png; sourceTree = "<group>"; };
+		A69403AB20652BA900114546 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A69403AD20652BCB00114546 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		A69403AF20652BD600114546 /* CloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
+		A69403B120652BF100114546 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		A69403B320652C0100114546 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A69403B6206530F700114546 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A69403B82065442000114546 /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
+		A69403BA20656A1600114546 /* CloudCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6B3CA8A2066E8A000FE2553 /* LeaderBoardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardHeaderView.swift; sourceTree = "<group>"; };
+		A6B3CA8C2066E94F00FE2553 /* LeaderHeaderViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderHeaderViewItem.swift; sourceTree = "<group>"; };
+		A6B3CA8E2066F69900FE2553 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		AD15CBE520A71A70001F17D6 /* batyrSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrSpecular.png; sourceTree = "<group>"; };
+		AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrDiffuse.png; sourceTree = "<group>"; };
+		AD35443420A739B500D623F5 /* kyz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = kyz.dae; sourceTree = "<group>"; };
+		AD365A8620A4A7CC00E0E7DA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		AD3A05FD20AAF85A00338167 /* kyzDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzDiffuse.png; sourceTree = "<group>"; };
+		AD47E21720A75D38008BB4FC /* batyrNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrNormal.png; sourceTree = "<group>"; };
+		AD83882E20A8EB3900501BF9 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedBookViewController.swift; sourceTree = "<group>"; };
+		AD83883220A8FAFF00501BF9 /* CongratulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationViewController.swift; sourceTree = "<group>"; };
+		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
+		ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		ADC1B2EA20A321F600E969D1 /* Аяз би.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Аяз би.epub"; sourceTree = "<group>"; };
+		ADC1B2EC20A321F600E969D1 /* Бақтыбай би.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Бақтыбай би.epub"; sourceTree = "<group>"; };
+		ADC1B2EE20A321F600E969D1 /* Бала патша.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Бала патша.epub"; sourceTree = "<group>"; };
+		ADC1B2EF20A321F700E969D1 /* Керқұла атты Кендебай.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Керқұла атты Кендебай.epub"; sourceTree = "<group>"; };
+		ADC1B2F020A321F700E969D1 /* Мақта қыз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Мақта қыз.epub"; sourceTree = "<group>"; };
+		ADC1B2F120A321F700E969D1 /* Күлше қыз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Күлше қыз.epub"; sourceTree = "<group>"; };
+		ADC1B2F320A321F700E969D1 /* Зерделі.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Зерделі.epub"; sourceTree = "<group>"; };
+		ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Қарлығаштың құйрығы неге айыр?.epub"; sourceTree = "<group>"; };
+		ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Жеті өнерпаз.epub"; sourceTree = "<group>"; };
+		ADC1B2F620A321F800E969D1 /* Алдаркөсе.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Алдаркөсе.epub"; sourceTree = "<group>"; };
+		ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ай астындағы Айбарша сұлу.epub"; sourceTree = "<group>"; };
+		ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кішкентай Маса.epub"; sourceTree = "<group>"; };
+		ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ер Төстік.epub"; sourceTree = "<group>"; };
+		ADC1B2FA20A321F900E969D1 /* Хан мен құмырсқалар ертегісі.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Хан мен құмырсқалар ертегісі.epub"; sourceTree = "<group>"; };
+		ADC1B2FB20A321F900E969D1 /* Боз атты Боран батыр.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Боз атты Боран батыр.epub"; sourceTree = "<group>"; };
+		ADC1B2FD20A321F900E969D1 /* Балықшы мен сиқыршы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Балықшы мен сиқыршы.epub"; sourceTree = "<group>"; };
+		ADC1B2FE20A321F900E969D1 /* Ит достығы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ит достығы.epub"; sourceTree = "<group>"; };
+		ADC1B2FF20A321F900E969D1 /* Сыбызғы сыры.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Сыбызғы сыры.epub"; sourceTree = "<group>"; };
+		ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Алты жасар Алпамыс.epub"; sourceTree = "<group>"; };
+		ADC1B30120A321FA00E969D1 /* Өнеге.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Өнеге.epub"; sourceTree = "<group>"; };
+		ADC1B31D20A323B600E969D1 /* Маша и медведь.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Маша и медведь.epub"; sourceTree = "<group>"; };
+		ADC1B31E20A323B600E969D1 /* Цветик-семицветик.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Цветик-семицветик.epub"; sourceTree = "<group>"; };
+		ADC1B31F20A323B600E969D1 /* Сестрица Аленушка и братец Иванушка.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Сестрица Аленушка и братец Иванушка.epub"; sourceTree = "<group>"; };
+		ADC1B32020A323B600E969D1 /* Белоснежка и семь гномов.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Белоснежка и семь гномов.epub"; sourceTree = "<group>"; };
+		ADC1B32120A323B600E969D1 /* Волк и семеро козлят.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Волк и семеро козлят.epub"; sourceTree = "<group>"; };
+		ADC1B32220A323B700E969D1 /* Я – сам.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Я – сам.epub"; sourceTree = "<group>"; };
+		ADC1B32320A323B700E969D1 /* По щучьему веленью.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "По щучьему веленью.epub"; sourceTree = "<group>"; };
+		ADC1B32420A323B700E969D1 /* Девочка со спичками.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Девочка со спичками.epub"; sourceTree = "<group>"; };
+		ADC1B32520A323B700E969D1 /* Репка.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Репка.epub"; sourceTree = "<group>"; };
+		ADC1B32620A323B700E969D1 /* Ничто-Ничего.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ничто-Ничего.epub"; sourceTree = "<group>"; };
+		ADC1B32720A323B700E969D1 /* Птичий язык.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Птичий язык.epub"; sourceTree = "<group>"; };
+		ADC1B32820A323B800E969D1 /* Гуси – лебеди.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Гуси – лебеди.epub"; sourceTree = "<group>"; };
+		ADC1B32920A323B800E969D1 /* Три медведя.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Три медведя.epub"; sourceTree = "<group>"; };
+		ADC1B32A20A323B800E969D1 /* Гадкий утенок.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Гадкий утенок.epub"; sourceTree = "<group>"; };
+		ADC1B32B20A323B800E969D1 /* Кошка, которая гуляла сама по себе.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кошка, которая гуляла сама по себе.epub"; sourceTree = "<group>"; };
+		ADC1B32C20A323B800E969D1 /* Мальчик с пальчик.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Мальчик с пальчик.epub"; sourceTree = "<group>"; };
+		ADC1B32D20A323B800E969D1 /* Разбойники.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Разбойники.epub"; sourceTree = "<group>"; };
+		ADC1B32E20A323B800E969D1 /* Кощей Бессмертный.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кощей Бессмертный.epub"; sourceTree = "<group>"; };
+		ADC1B32F20A323B900E969D1 /* Горшок.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Горшок.epub"; sourceTree = "<group>"; };
+		ADC1B33020A323B900E969D1 /* Легенда о Макбете.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Легенда о Макбете.epub"; sourceTree = "<group>"; };
+		ADC1B33120A323B900E969D1 /* Царевна-лягушка.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Царевна-лягушка.epub"; sourceTree = "<group>"; };
+		ADC1B33220A323B900E969D1 /* Крошка фея.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Крошка фея.epub"; sourceTree = "<group>"; };
+		ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кот, Петух и Лиса.epub"; sourceTree = "<group>"; };
+		ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Петушок — Золотой гребещок и жерновцы.epub"; sourceTree = "<group>"; };
+		ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Волшебное кольцо.epub"; sourceTree = "<group>"; };
+		ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudBookListViewController.swift; sourceTree = "<group>"; };
+		ADC1B35120A337B100E969D1 /* CloudBookListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudBookListTableViewCell.swift; sourceTree = "<group>"; };
+		ADC1B35520A341D700E969D1 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		ADC1B35720A3443F00E969D1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		ADC1B35B20A34D4600E969D1 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
+		ADC1B35D20A3801500E969D1 /* Арлы бала.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Арлы бала.epub"; sourceTree = "<group>"; };
+		ADC1B35F20A381CC00E969D1 /* Балта сорпасы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Балта сорпасы.epub"; sourceTree = "<group>"; };
+		ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Мұжық мырзамен қалай табақтас болды.epub"; sourceTree = "<group>"; };
+		ADD4D52520A9DE5D00C6C685 /* Batyr.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Batyr.dae; sourceTree = "<group>"; };
+		ADE5A9CE20A707E40096B303 /* aldar.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aldar.dae; sourceTree = "<group>"; };
+		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		ADEA0F1F209F06300051E664 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
+		ADEA0F21209F25400051E664 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		ADEA0F24209F28160051E664 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ADEA0F2B209F40CA0051E664 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
+		ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewCell.swift; sourceTree = "<group>"; };
+		ADFDB43320AB75CF00F10699 /* auid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = auid.mp3; sourceTree = "<group>"; };
+		ADFDB43520AB881D00F10699 /* gulnaz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = gulnaz.dae; sourceTree = "<group>"; };
+		ADFDB43720AB8D7F00F10699 /* gulnaz.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = gulnaz.scn; sourceTree = "<group>"; };
+		ADFDB43B20AB8EE800F10699 /* battalion-leader-heraklios_specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_specular.png"; sourceTree = "<group>"; };
+		ADFDB43C20AB8EE900F10699 /* battalion-leader-heraklios_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_normal.png"; sourceTree = "<group>"; };
+		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60F044520651AAB001AD7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60F045B20651AAC001AD7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856FB226700E1D37297D977 /* Pods_YerTostikTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60F046620651AAC001AD7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E88BC343A4546CE19744213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */,
+				9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */,
+				511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A60F043F20651AAB001AD7D7 = {
+			isa = PBXGroup;
+			children = (
+				A60F044A20651AAB001AD7D7 /* YerTostik */,
+				A60F046C20651AAC001AD7D7 /* YerTostikUITests */,
+				A60F046120651AAC001AD7D7 /* YerTostikTests */,
+				A60F044920651AAB001AD7D7 /* Products */,
+				AC5AE9F5450FFFC9DF6C880A /* Pods */,
+				4E88BC343A4546CE19744213 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A60F044920651AAB001AD7D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60F044820651AAB001AD7D7 /* YerTostik.app */,
+				A60F045E20651AAC001AD7D7 /* YerTostikTests.xctest */,
+				A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60F044A20651AAB001AD7D7 /* YerTostik */ = {
+			isa = PBXGroup;
+			children = (
+				A60F044B20651AAB001AD7D7 /* AppDelegate.swift */,
+				A677228F2070194C008FD4D5 /* Models */,
+				A6D2F3BA20651F6F00689D68 /* Views */,
+				A6D2F3BB20651F7600689D68 /* Controllers */,
+				A69403B5206530D500114546 /* Extensions */,
+				ADC1B2CF20A1D52E00E969D1 /* Managers */,
+				ADEA0F23209F280A0051E664 /* Constants */,
+				A6D2F3BD20651FBE00689D68 /* LaunchScreen */,
+				A6D2F3BC20651F9300689D68 /* Resources */,
+				A60F045920651AAB001AD7D7 /* Info.plist */,
+				ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */,
+			);
+			path = YerTostik;
+			sourceTree = "<group>";
+		};
+		A60F046120651AAC001AD7D7 /* YerTostikTests */ = {
+			isa = PBXGroup;
+			children = (
+				A60F046220651AAC001AD7D7 /* YerTostikTests.swift */,
+				A60F046420651AAC001AD7D7 /* Info.plist */,
+			);
+			path = YerTostikTests;
+			sourceTree = "<group>";
+		};
+		A60F046C20651AAC001AD7D7 /* YerTostikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */,
+				A60F046F20651AAC001AD7D7 /* Info.plist */,
+			);
+			path = YerTostikUITests;
+			sourceTree = "<group>";
+		};
+		A62DCD15206D370B000A1CD8 /* 3d models */ = {
+			isa = PBXGroup;
+			children = (
+				A65533D920702DE90067BC13 /* batyr */,
+				A677229620702797008FD4D5 /* kyz */,
+				A62DCD16206D376C000A1CD8 /* aldar */,
+			);
+			path = "3d models";
+			sourceTree = "<group>";
+		};
+		A62DCD16206D376C000A1CD8 /* aldar */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5A9CE20A707E40096B303 /* aldar.dae */,
+				A604599B206E4A59004A7803 /* aldarDiffuse.png */,
+				A62DCD1A206D38F3000A1CD8 /* aldarNormal.png */,
+				A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */,
+				A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */,
+			);
+			path = aldar;
+			sourceTree = "<group>";
+		};
+		A65533D920702DE90067BC13 /* batyr */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDB43C20AB8EE900F10699 /* battalion-leader-heraklios_normal.png */,
+				ADFDB43B20AB8EE800F10699 /* battalion-leader-heraklios_specular.png */,
+				ADD4D52520A9DE5D00C6C685 /* Batyr.dae */,
+				AD47E21720A75D38008BB4FC /* batyrNormal.png */,
+				AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */,
+				AD15CBE520A71A70001F17D6 /* batyrSpecular.png */,
+			);
+			path = batyr;
+			sourceTree = "<group>";
+		};
+		A677228F2070194C008FD4D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A67722902070196B008FD4D5 /* VirtualPlane.swift */,
+				A677229220701994008FD4D5 /* ARSessionState.swift */,
+				ADC1B35520A341D700E969D1 /* Book.swift */,
+				ADC1B35B20A34D4600E969D1 /* books.json */,
+				ADC1B35720A3443F00E969D1 /* Category.swift */,
+				AD365A8620A4A7CC00E0E7DA /* Favorite.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A677229620702797008FD4D5 /* kyz */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDB43520AB881D00F10699 /* gulnaz.dae */,
+				ADFDB43720AB8D7F00F10699 /* gulnaz.scn */,
+				AD3A05FD20AAF85A00338167 /* kyzDiffuse.png */,
+				AD35443420A739B500D623F5 /* kyz.dae */,
+				A677229B2070286D008FD4D5 /* kyzNormal.png */,
+				A677229D20702874008FD4D5 /* kyzSpecular.png */,
+			);
+			path = kyz;
+			sourceTree = "<group>";
+		};
+		A69403B5206530D500114546 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A69403B6206530F700114546 /* Extensions.swift */,
+				ADEA0F1F209F06300051E664 /* Drop.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6D2F3BA20651F6F00689D68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A60F045120651AAB001AD7D7 /* Main.storyboard */,
+				A69403B82065442000114546 /* LibraryTableViewCell.swift */,
+				A69403BA20656A1600114546 /* CloudCollectionViewCell.swift */,
+				A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */,
+				A6B3CA8A2066E8A000FE2553 /* LeaderBoardHeaderView.swift */,
+				A6B3CA8C2066E94F00FE2553 /* LeaderHeaderViewItem.swift */,
+				A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */,
+				A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */,
+				A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */,
+				ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */,
+				ADEA0F21209F25400051E664 /* VideoPlayerView.swift */,
+				ADC1B35120A337B100E969D1 /* CloudBookListTableViewCell.swift */,
+				ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6D2F3BB20651F7600689D68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A60F044F20651AAB001AD7D7 /* ARViewController.swift */,
+				A69403AB20652BA900114546 /* TabBarController.swift */,
+				A69403AD20652BCB00114546 /* LibraryViewController.swift */,
+				A69403AF20652BD600114546 /* CloudViewController.swift */,
+				A69403B120652BF100114546 /* LeaderBoardViewController.swift */,
+				A69403B320652C0100114546 /* ProfileViewController.swift */,
+				A6B3CA8E2066F69900FE2553 /* SettingsViewController.swift */,
+				A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */,
+				ADB82F05209DE41F0047BC83 /* SignInViewController.swift */,
+				ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */,
+				ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */,
+				ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */,
+				AD83882E20A8EB3900501BF9 /* AudioViewController.swift */,
+				AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */,
+				AD83883220A8FAFF00501BF9 /* CongratulationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6D2F3BC20651F9300689D68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDB42E20AB758A00F10699 /* audios */,
+				ADC1B2E420A3211D00E969D1 /* books */,
+				ADEA0F28209F28D40051E664 /* videos */,
+				A62DCD15206D370B000A1CD8 /* 3d models */,
+				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6D2F3BD20651FBE00689D68 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		AC5AE9F5450FFFC9DF6C880A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				496B0B093426852CC2DC3C0C /* Pods-YerTostik.debug.xcconfig */,
+				4EBC91B31DDAC44A2945CF47 /* Pods-YerTostik.release.xcconfig */,
+				9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */,
+				94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */,
+				FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */,
+				DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADC1B2CF20A1D52E00E969D1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ADC1B2E420A3211D00E969D1 /* books */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1B31C20A323A500E969D1 /* rus */,
+				ADC1B2E520A3213000E969D1 /* kaz */,
+			);
+			path = books;
+			sourceTree = "<group>";
+		};
+		ADC1B2E520A3213000E969D1 /* kaz */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1B35D20A3801500E969D1 /* Арлы бала.epub */,
+				ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */,
+				ADC1B2F620A321F800E969D1 /* Алдаркөсе.epub */,
+				ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */,
+				ADC1B2EA20A321F600E969D1 /* Аяз би.epub */,
+				ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */,
+				ADC1B2EC20A321F600E969D1 /* Бақтыбай би.epub */,
+				ADC1B2EE20A321F600E969D1 /* Бала патша.epub */,
+				ADC1B35F20A381CC00E969D1 /* Балта сорпасы.epub */,
+				ADC1B2FD20A321F900E969D1 /* Балықшы мен сиқыршы.epub */,
+				ADC1B2FB20A321F900E969D1 /* Боз атты Боран батыр.epub */,
+				ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */,
+				ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */,
+				ADC1B2F320A321F700E969D1 /* Зерделі.epub */,
+				ADC1B2FE20A321F900E969D1 /* Ит достығы.epub */,
+				ADC1B2EF20A321F700E969D1 /* Керқұла атты Кендебай.epub */,
+				ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */,
+				ADC1B2F120A321F700E969D1 /* Күлше қыз.epub */,
+				ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */,
+				ADC1B2F020A321F700E969D1 /* Мақта қыз.epub */,
+				ADC1B30120A321FA00E969D1 /* Өнеге.epub */,
+				ADC1B2FF20A321F900E969D1 /* Сыбызғы сыры.epub */,
+				ADC1B2FA20A321F900E969D1 /* Хан мен құмырсқалар ертегісі.epub */,
+			);
+			path = kaz;
+			sourceTree = "<group>";
+		};
+		ADC1B31C20A323A500E969D1 /* rus */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1B32020A323B600E969D1 /* Белоснежка и семь гномов.epub */,
+				ADC1B32120A323B600E969D1 /* Волк и семеро козлят.epub */,
+				ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */,
+				ADC1B32A20A323B800E969D1 /* Гадкий утенок.epub */,
+				ADC1B32F20A323B900E969D1 /* Горшок.epub */,
+				ADC1B32820A323B800E969D1 /* Гуси – лебеди.epub */,
+				ADC1B32420A323B700E969D1 /* Девочка со спичками.epub */,
+				ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */,
+				ADC1B32B20A323B800E969D1 /* Кошка, которая гуляла сама по себе.epub */,
+				ADC1B32E20A323B800E969D1 /* Кощей Бессмертный.epub */,
+				ADC1B33220A323B900E969D1 /* Крошка фея.epub */,
+				ADC1B33020A323B900E969D1 /* Легенда о Макбете.epub */,
+				ADC1B32C20A323B800E969D1 /* Мальчик с пальчик.epub */,
+				ADC1B31D20A323B600E969D1 /* Маша и медведь.epub */,
+				ADC1B32620A323B700E969D1 /* Ничто-Ничего.epub */,
+				ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */,
+				ADC1B32320A323B700E969D1 /* По щучьему веленью.epub */,
+				ADC1B32720A323B700E969D1 /* Птичий язык.epub */,
+				ADC1B32D20A323B800E969D1 /* Разбойники.epub */,
+				ADC1B32520A323B700E969D1 /* Репка.epub */,
+				ADC1B31F20A323B600E969D1 /* Сестрица Аленушка и братец Иванушка.epub */,
+				ADC1B32920A323B800E969D1 /* Три медведя.epub */,
+				ADC1B33120A323B900E969D1 /* Царевна-лягушка.epub */,
+				ADC1B31E20A323B600E969D1 /* Цветик-семицветик.epub */,
+				ADC1B32220A323B700E969D1 /* Я – сам.epub */,
+			);
+			path = rus;
+			sourceTree = "<group>";
+		};
+		ADEA0F23209F280A0051E664 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA0F24209F28160051E664 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		ADEA0F28209F28D40051E664 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA0F2B209F40CA0051E664 /* background.mp4 */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
+		ADFDB42E20AB758A00F10699 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDB43020AB759700F10699 /* rus */,
+				ADFDB42F20AB759200F10699 /* kaz */,
+			);
+			path = audios;
+			sourceTree = "<group>";
+		};
+		ADFDB42F20AB759200F10699 /* kaz */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDB43320AB75CF00F10699 /* auid.mp3 */,
+			);
+			path = kaz;
+			sourceTree = "<group>";
+		};
+		ADFDB43020AB759700F10699 /* rus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = rus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60F044720651AAB001AD7D7 /* YerTostik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60F047220651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostik" */;
+			buildPhases = (
+				9FD096B677A6FE8C80AAE0B2 /* [CP] Check Pods Manifest.lock */,
+				A60F044420651AAB001AD7D7 /* Sources */,
+				A60F044520651AAB001AD7D7 /* Frameworks */,
+				A60F044620651AAB001AD7D7 /* Resources */,
+				41F4E2BF56C55A28AB8E19CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YerTostik;
+			productName = YerTostik;
+			productReference = A60F044820651AAB001AD7D7 /* YerTostik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60F045D20651AAC001AD7D7 /* YerTostikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60F047520651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikTests" */;
+			buildPhases = (
+				C4A76D0667DAA08DCE39AF4C /* [CP] Check Pods Manifest.lock */,
+				A60F045A20651AAC001AD7D7 /* Sources */,
+				A60F045B20651AAC001AD7D7 /* Frameworks */,
+				A60F045C20651AAC001AD7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60F046020651AAC001AD7D7 /* PBXTargetDependency */,
+			);
+			name = YerTostikTests;
+			productName = YerTostikTests;
+			productReference = A60F045E20651AAC001AD7D7 /* YerTostikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A60F046820651AAC001AD7D7 /* YerTostikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60F047820651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikUITests" */;
+			buildPhases = (
+				5C6518C94A79B66FC19E6856 /* [CP] Check Pods Manifest.lock */,
+				A60F046520651AAC001AD7D7 /* Sources */,
+				A60F046620651AAC001AD7D7 /* Frameworks */,
+				A60F046720651AAC001AD7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60F046B20651AAC001AD7D7 /* PBXTargetDependency */,
+			);
+			name = YerTostikUITests;
+			productName = YerTostikUITests;
+			productReference = A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60F044020651AAB001AD7D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Islam Temirbek";
+				TargetAttributes = {
+					A60F044720651AAB001AD7D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A60F045D20651AAC001AD7D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A60F044720651AAB001AD7D7;
+					};
+					A60F046820651AAC001AD7D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A60F044720651AAB001AD7D7;
+					};
+				};
+			};
+			buildConfigurationList = A60F044320651AAB001AD7D7 /* Build configuration list for PBXProject "YerTostik" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60F043F20651AAB001AD7D7;
+			productRefGroup = A60F044920651AAB001AD7D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60F044720651AAB001AD7D7 /* YerTostik */,
+				A60F045D20651AAC001AD7D7 /* YerTostikTests */,
+				A60F046820651AAC001AD7D7 /* YerTostikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60F044620651AAB001AD7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC1B33A20A323BA00E969D1 /* Волк и семеро козлят.epub in Resources */,
+				A62DCD20206D38F4000A1CD8 /* aldarOpacity.png in Resources */,
+				ADC1B34020A323BA00E969D1 /* Птичий язык.epub in Resources */,
+				ADC1B31120A321FB00E969D1 /* Кішкентай Маса.epub in Resources */,
+				A677229C2070286D008FD4D5 /* kyzNormal.png in Resources */,
+				ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */,
+				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
+				ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */,
+				AD3A05FE20AAF85A00338167 /* kyzDiffuse.png in Resources */,
+				AD15CBEA20A71A7D001F17D6 /* batyrDiffuse.png in Resources */,
+				ADC1B36220A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub in Resources */,
+				ADC1B35C20A34D4600E969D1 /* books.json in Resources */,
+				ADC1B31420A321FB00E969D1 /* Боз атты Боран батыр.epub in Resources */,
+				ADC1B31920A321FB00E969D1 /* Алты жасар Алпамыс.epub in Resources */,
+				ADC1B33920A323BA00E969D1 /* Белоснежка и семь гномов.epub in Resources */,
+				ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */,
+				A677229E20702874008FD4D5 /* kyzSpecular.png in Resources */,
+				AD15CBE620A71A70001F17D6 /* batyrSpecular.png in Resources */,
+				ADC1B34820A323BA00E969D1 /* Горшок.epub in Resources */,
+				ADC1B33C20A323BA00E969D1 /* По щучьему веленью.epub in Resources */,
+				ADC1B33B20A323BA00E969D1 /* Я – сам.epub in Resources */,
+				ADC1B34620A323BA00E969D1 /* Разбойники.epub in Resources */,
+				ADC1B33E20A323BA00E969D1 /* Репка.epub in Resources */,
+				ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */,
+				ADC1B36020A381CD00E969D1 /* Балта сорпасы.epub in Resources */,
+				AD35443520A739B500D623F5 /* kyz.dae in Resources */,
+				A62DCD1E206D38F4000A1CD8 /* aldarNormal.png in Resources */,
+				ADC1B34A20A323BA00E969D1 /* Царевна-лягушка.epub in Resources */,
+				ADFDB43620AB881E00F10699 /* gulnaz.dae in Resources */,
+				ADC1B30920A321FB00E969D1 /* Мақта қыз.epub in Resources */,
+				ADFDB43D20AB8EE900F10699 /* battalion-leader-heraklios_specular.png in Resources */,
+				ADC1B34320A323BA00E969D1 /* Гадкий утенок.epub in Resources */,
+				ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */,
+				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
+				ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */,
+				ADFDB43420AB75CF00F10699 /* auid.mp3 in Resources */,
+				ADC1B30F20A321FB00E969D1 /* Алдаркөсе.epub in Resources */,
+				ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */,
+				ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */,
+				A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */,
+				A62DCD1F206D38F4000A1CD8 /* aldarSpecular.png in Resources */,
+				ADC1B34120A323BA00E969D1 /* Гуси – лебеди.epub in Resources */,
+				ADC1B33620A323BA00E969D1 /* Маша и медведь.epub in Resources */,
+				ADC1B30A20A321FB00E969D1 /* Күлше қыз.epub in Resources */,
+				ADC1B31720A321FB00E969D1 /* Ит достығы.epub in Resources */,
+				ADC1B34920A323BA00E969D1 /* Легенда о Макбете.epub in Resources */,
+				ADC1B34520A323BA00E969D1 /* Мальчик с пальчик.epub in Resources */,
+				ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */,
+				A604599C206E4A59004A7803 /* aldarDiffuse.png in Resources */,
+				ADC1B30820A321FB00E969D1 /* Керқұла атты Кендебай.epub in Resources */,
+				ADD4D52620A9DE5D00C6C685 /* Batyr.dae in Resources */,
+				ADC1B34C20A323BA00E969D1 /* Кот, Петух и Лиса.epub in Resources */,
+				ADC1B30520A321FB00E969D1 /* Бақтыбай би.epub in Resources */,
+				AD47E21820A75D38008BB4FC /* batyrNormal.png in Resources */,
+				ADC1B34D20A323BA00E969D1 /* Петушок — Золотой гребещок и жерновцы.epub in Resources */,
+				ADC1B34420A323BA00E969D1 /* Кошка, которая гуляла сама по себе.epub in Resources */,
+				ADC1B31820A321FB00E969D1 /* Сыбызғы сыры.epub in Resources */,
+				ADE5A9CF20A707E50096B303 /* aldar.dae in Resources */,
+				ADC1B31020A321FB00E969D1 /* Ай астындағы Айбарша сұлу.epub in Resources */,
+				ADC1B33F20A323BA00E969D1 /* Ничто-Ничего.epub in Resources */,
+				ADC1B30D20A321FB00E969D1 /* Қарлығаштың құйрығы неге айыр?.epub in Resources */,
+				ADC1B35E20A3801600E969D1 /* Арлы бала.epub in Resources */,
+				ADC1B33D20A323BA00E969D1 /* Девочка со спичками.epub in Resources */,
+				ADC1B33720A323BA00E969D1 /* Цветик-семицветик.epub in Resources */,
+				ADFDB43E20AB8EE900F10699 /* battalion-leader-heraklios_normal.png in Resources */,
+				ADC1B30320A321FB00E969D1 /* Аяз би.epub in Resources */,
+				ADC1B34720A323BA00E969D1 /* Кощей Бессмертный.epub in Resources */,
+				ADFDB43820AB8D7F00F10699 /* gulnaz.scn in Resources */,
+				ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */,
+				ADC1B34B20A323BA00E969D1 /* Крошка фея.epub in Resources */,
+				ADC1B30720A321FB00E969D1 /* Бала патша.epub in Resources */,
+				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60F045C20651AAC001AD7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60F046720651AAC001AD7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41F4E2BF56C55A28AB8E19CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/FolioReaderKit/FolioReaderKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQWebViewController/JSQWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MenuItemKit/MenuItemKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Sugar/Sugar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FolioReaderKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MenuItemKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sugar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDragableModalTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6518C94A79B66FC19E6856 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YerTostikUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD096B677A6FE8C80AAE0B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YerTostik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A76D0667DAA08DCE39AF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YerTostikTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60F044420651AAB001AD7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD83883120A8EDEA00501BF9 /* DetailedBookViewController.swift in Sources */,
+				ADC1B35220A337B100E969D1 /* CloudBookListTableViewCell.swift in Sources */,
+				ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */,
+				ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */,
+				ADEA0F20209F06300051E664 /* Drop.swift in Sources */,
+				ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */,
+				A69403AC20652BA900114546 /* TabBarController.swift in Sources */,
+				AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */,
+				A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */,
+				ADC1B35820A3443F00E969D1 /* Category.swift in Sources */,
+				A69403B020652BD600114546 /* CloudViewController.swift in Sources */,
+				A6B3CA8B2066E8A000FE2553 /* LeaderBoardHeaderView.swift in Sources */,
+				ADEA0F25209F28160051E664 /* Constants.swift in Sources */,
+				A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */,
+				ADFDB42D20AB700100F10699 /* AudioTableViewCell.swift in Sources */,
+				ADC1B35620A341D700E969D1 /* Book.swift in Sources */,
+				A69403B7206530F700114546 /* Extensions.swift in Sources */,
+				A60F045020651AAB001AD7D7 /* ARViewController.swift in Sources */,
+				A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */,
+				A6B3CA8D2066E94F00FE2553 /* LeaderHeaderViewItem.swift in Sources */,
+				A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */,
+				A6B3CA912066F6B900FE2553 /* SettingsTableViewCell.swift in Sources */,
+				A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */,
+				A67722912070196B008FD4D5 /* VirtualPlane.swift in Sources */,
+				A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */,
+				A6B3CA8F2066F69900FE2553 /* SettingsViewController.swift in Sources */,
+				ADC1B2D320A1E72B00E969D1 /* EditProfileViewController.swift in Sources */,
+				A69403B420652C0100114546 /* ProfileViewController.swift in Sources */,
+				ADEA0F22209F25400051E664 /* VideoPlayerView.swift in Sources */,
+				ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */,
+				A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */,
+				AD83883320A8FAFF00501BF9 /* CongratulationViewController.swift in Sources */,
+				A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */,
+				ADC1B35020A3375E00E969D1 /* CloudBookListViewController.swift in Sources */,
+				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,
+				A677229320701994008FD4D5 /* ARSessionState.swift in Sources */,
+				AD83882F20A8EB3900501BF9 /* AudioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60F045A20651AAC001AD7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60F046520651AAC001AD7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60F046020651AAC001AD7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60F044720651AAB001AD7D7 /* YerTostik */;
+			targetProxy = A60F045F20651AAC001AD7D7 /* PBXContainerItemProxy */;
+		};
+		A60F046B20651AAC001AD7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60F044720651AAB001AD7D7 /* YerTostik */;
+			targetProxy = A60F046A20651AAC001AD7D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A60F045120651AAB001AD7D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60F045220651AAB001AD7D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60F045720651AAB001AD7D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A60F047020651AAC001AD7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A60F047120651AAC001AD7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60F047320651AAC001AD7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496B0B093426852CC2DC3C0C /* Pods-YerTostik.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				INFOPLIST_FILE = YerTostik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yertostik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A60F047420651AAC001AD7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBC91B31DDAC44A2945CF47 /* Pods-YerTostik.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				INFOPLIST_FILE = YerTostik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yertostik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A60F047620651AAC001AD7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L32S293JKJ;
+				INFOPLIST_FILE = YerTostikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YerTostikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YerTostik.app/YerTostik";
+			};
+			name = Debug;
+		};
+		A60F047720651AAC001AD7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L32S293JKJ;
+				INFOPLIST_FILE = YerTostikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YerTostikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YerTostik.app/YerTostik";
+			};
+			name = Release;
+		};
+		A60F047920651AAC001AD7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L32S293JKJ;
+				INFOPLIST_FILE = YerTostikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YerTostikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YerTostik;
+			};
+			name = Debug;
+		};
+		A60F047A20651AAC001AD7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L32S293JKJ;
+				INFOPLIST_FILE = YerTostikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.YerTostikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YerTostik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60F044320651AAB001AD7D7 /* Build configuration list for PBXProject "YerTostik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60F047020651AAC001AD7D7 /* Debug */,
+				A60F047120651AAC001AD7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60F047220651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60F047320651AAC001AD7D7 /* Debug */,
+				A60F047420651AAC001AD7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60F047520651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60F047620651AAC001AD7D7 /* Debug */,
+				A60F047720651AAC001AD7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60F047820651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60F047920651AAC001AD7D7 /* Debug */,
+				A60F047A20651AAC001AD7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60F044020651AAB001AD7D7 /* Project object */;
+}
